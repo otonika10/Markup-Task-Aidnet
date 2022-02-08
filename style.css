@@ -325,6 +325,7 @@ button{
 
 
 }
+
 .ctlg1{
     flex-basis: 20%;
     background-color: white;
@@ -422,3 +423,87 @@ button{
     font-size: 16px;
     padding: 16px 32px;
   }
+  .cont2{
+    height: 590px;
+
+    display: flex;
+    margin-top: -10px;
+}
+.num1,.num2,.num3,.num4{
+    flex-basis: 19%;
+    
+    
+
+}
+.num1 img{
+    border-radius: 10px;
+    position: relative;
+    left: 40px;
+    top: 47px;
+    z-index: 99;
+}
+
+.ise{
+    flex-basis: 20%;
+    
+    
+
+}
+.rect{
+    width: 242px;
+    height: 332px;
+    background-color: #00B15D;
+    border-radius: 10px;
+    position: relative;
+    top: -320px;
+    left: 60px;
+    z-index: 0;
+}
+.rect2{
+    width: 49px;
+    height: 48px;
+    background-color: black;
+    border-radius: 10px;
+    position: relative;
+    top: -625px;
+    left: 40px;
+    z-index: 100;
+    
+}
+.num1 span{
+    font-family: BPG Glaho WEB Caps;
+    font-weight: 900;
+    font-size: 20px;
+    position: relative;
+    left: 160px;
+    top: 20px;
+    letter-spacing: 3px;
+    
+}
+.num1 p{
+    font-size: 16px;
+}
+.num1 .texts{
+    width: 250px;
+    position: relative;
+    top: -325px;
+    left: 40px;
+    
+}
+.items:hover{
+    position: relative;
+    top: -10px;
+
+}
+.items:hover .rect{
+    position: relative;
+    background-color: black;
+
+}.items:hover .rect2{
+    position: relative;
+    background-color:#00B15D;
+
+}
+.rect2:hover{
+    background-color: #00B15D;
+}
