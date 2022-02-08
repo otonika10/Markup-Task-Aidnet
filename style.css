@@ -313,3 +313,112 @@ button{
     background-color: #00B15D;
     border-radius: 5px;
 }
+.catallogs{
+    height: 600px;
+    background-color: white;
+    display: flex;
+    
+}
+.ctlg{
+    flex-basis: 19%;
+    background-color: white;
+
+
+}
+.ctlg1{
+    flex-basis: 20%;
+    background-color: white;
+
+
+}
+.ctlg1 img{
+    position: relative;
+    
+    top: 25px;
+}
+.spn{
+    width: 370px;
+    height: 234px;
+    position: relative;
+    
+    top: 55px;
+}
+.hspn{
+    font-family: BPG Glaho WEB Caps;
+    font-weight: 900;
+    font-size: 24px;
+    letter-spacing: 3.5px;
+    
+}
+.spn p{
+    color: #737373;
+    font-size: 18px;
+}
+.ctlg2{
+    flex-basis: 21%;
+    background-color: white;
+
+
+
+}
+.ctlg2 img{
+    position: relative;
+    left: 10px;
+    top: 25px;
+}
+.ctlg2 .spn{
+    position: relative;
+    left: 10px;
+}
+.container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    z-index: 99;
+  }
+  
+  .middle {
+    
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 40%;
+    left: 16%;
+    text-align: center;
+    width: 247px;
+    height: 61px;
+  }
+  .outline{
+      width: 348px;
+      height: 368px;
+      border: 1px solid #00B15D;
+      position: absolute;
+      top: 35px;
+      left: 10px;
+      z-index: 0;
+  }
+  .ctlg2 .outline{
+      position: absolute;
+      left: 20px;
+  }
+  .container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #04AA6D;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
