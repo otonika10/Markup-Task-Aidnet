@@ -1,5 +1,6 @@
 @font-face { font-family: BPG Glaho WEB Caps; src: url('bpg_web_glaho_caps.ttf'); } 
 @font-face { font-family: BPG WEB 001 Caps; src: url('bpg_web_001_caps.ttf'); }  
+@font-face { font-family: Sylfaen; src: url('Sylfaen.ttf'); }  
 html, body{
     width: 100%;
     height: 100%;
@@ -425,14 +426,15 @@ button{
   }
   .cont2{
     height: 590px;
-
+    background-color: white;
+    
     display: flex;
     margin-top: -10px;
 }
 .num1,.num2,.num3,.num4{
     flex-basis: 19%;
-    
-    
+    z-index: 99;
+    background-color: white;
 
 }
 .num1 img{
@@ -506,4 +508,190 @@ button{
 }
 .rect2:hover{
     background-color: #00B15D;
+}
+.cont3{
+
+    background-color: #00B15D;
+    height: 320px;
+}
+.white{
+    height: 135px;
+    z-index: 99;
+    background-color: white;
+}
+.rect3{
+    height: 360px;
+    width: 320px;
+    background-color:#00B15D;
+    position: relative;
+    left: 560px;
+    top: -67px;
+    transform: rotate(11deg);
+    z-index: 0;
+}
+.rect4{
+    height: 100px;
+    width: 100px;
+    background-color:#00B15D;
+    position: relative;
+    left: 745px;
+    top: -140px;
+}
+.cont3 hr{
+    position: relative;
+    left: -40px;
+    width: 70px;
+    height: 6px;
+    background-color: white;
+    border-radius: 5px;
+}
+.cont3 span{
+    font-size: 28px;
+    font-family: BPG Glaho WEB Caps;
+    font-weight: 900;
+    color:white;
+    
+    
+}
+.start{
+    width: 500px;
+    position: relative;
+    top: -400px;
+    left: 400px;
+    letter-spacing: 3px;
+}
+.start button{
+    width: 247px;
+    height: 61px;
+    background-color: white;
+    position: relative;
+    top: 50px;
+    left: 90px;
+}
+.last{
+    display: flex;
+    flex-basis: 100%;
+    background-image:linear-gradient(to bottom, rgba(15, 15, 15, 0.52), rgba(12, 12, 12, 0.53)),
+    url("image 17.png");
+    height: 550px;
+    font-family: BPG Glaho WEB Caps;
+    font-weight: 900;
+    border: none;
+    
+}
+.b1{
+    flex-basis: 15%;
+    
+    
+    margin-right: 10px;
+}
+.b2{
+    flex-basis: 20%;
+    
+    
+    margin-right: 70px;
+}
+
+.b2 span{
+    font-size: 18px;
+    color: white;
+    white-space: nowrap;
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+.cntr{
+    position: relative;
+    top: 60px;
+    left: 60px;
+}
+.cntr input{
+    width: 260px;
+    height: 47px;
+    position: relative;
+    top: 20px;
+    left: 10px;
+    border:1px solid white;
+    outline: none;
+    margin-bottom: 20px;
+}
+.cntr a{
+    font-size: 28px;
+    color: #00B15D;
+    position: relative;
+    left: -40px;
+    top: 25px;
+}
+.circle{
+	border-radius: 50%;
+	margin: 0.15em;
+	font-size: 4em;
+	}
+	
+.fa-twitter{
+	background:#00B15D;
+	color: #FFFFFF;
+  padding: 0.05em 0.07em;
+	}
+
+.fa-google-plus{
+  color: #FFFFFF;
+  background: #dd4b39;
+  padding: 0.1em 0.1em;
+  }  
+
+.fa-dribbble{
+	color: #ea4c89;
+	}
+
+.fa-pinterest{
+	color:#00B15D;
+	}
+
+.fa-facebook{
+	background: #00B15D;
+	color: #FFFFFF;
+  padding: 0.05em 0.3em;
+	}
+
+.fa-youtube-play{
+	background:#00B15D;
+	color: #FFFFFF;
+  padding: 0.25em 0.25em;
+  
+	}
+.socials{
+    position: relative;
+    left: 50px;
+}
+.cntr button{
+    width: 204px;
+    height: 47px;
+    background-color:#00B15D;
+    position: relative;
+    top: 60px;
+    color: white;
+}
+.cntr p{
+    font-family: Sylfaen;
+    font-weight: normal;
+    color: white;
+    font-size: 16px;
+    position: relative;
+    top: 120px;
+}
+.cntr1{
+    position: relative;
+    top: 40px;
+    left: 70px;
+}
+.cntr1 p{
+    width: 250px;
+    font-family: Sylfaen;
+    font-weight: normal;
+    color: white;
+    font-size: 18px;
+    line-height: 41.43px;
+    position: relative;
+    left: 10px;
 }
