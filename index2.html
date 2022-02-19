@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        @font-face { font-family: BPG Glaho WEB Caps; src: url('bpg_web_glaho_caps.ttf'); } 
+@font-face { font-family: BPG WEB 001 Caps; src: url('bpg_web_001_caps.ttf'); }  
+@font-face { font-family: Sylfaen; src: url('Sylfaen.ttf'); }  
+
+html, body {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  margin: 0;
+}
+
+ul.nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #F4F4F4;
+  min-height: 36px;
+  max-height: 300px;
+}
+ul.nav-links li {
+  float: left;
+  position: relative;
+  left: 32%;
+font-size: 12px;
+line-height: 15.06px;
+font-family: BPG Glaho WEB Caps;
+  
+}
+ul.nav-links li a {
+  display: block;
+  color: black;
+  text-align: center;
+  
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 15.86px;
+  font-family: BPG Glaho WEB Caps;
+  font-size: 12px;
+}
+select {
+border: 0px;
+outline: 0px;
+background-color: #F4F4F4;
+font-size: 12px;
+line-height: 15.06px;
+font-family: BPG Glaho WEB Caps;
+}
+.dropdown{
+position: relative;
+left: -45px;
+top: 10px;
+
+
+}
+.phone{
+position: relative;
+left: 525px;
+top: -10px;
+font-family: BPG Glaho WEB Caps;
+
+}
+.phone i{
+position: relative;
+top: 5px;
+
+}
+.search{
+position: relative;
+left: 555px;
+top: -7px;
+font-family: BPG Glaho WEB Caps;
+}
+.user{
+position: relative;
+left: 585px;
+top: -7px;
+font-family: BPG Glaho WEB Caps;
+}
+.nav-bar a{
+font-family: BPG Glaho WEB Caps;
+color: white;
+font-size: 13px;
+position: relative;
+left: -50px;
+
+line-height: 121.19%;
+}
+.nav-bar a i{
+font-size: 20px;
+padding: 5px;
+
+}
+li .shoping{
+position: absolute;
+left: 880px;
+top: -10px;
+}
+
+.shoping i{
+position: relative;
+top: 30px;
+left: -30px;
+}
+
+@media screen and (max-width: 1300px) {
+  ul.nav-links li,
+ul.nav-links li {
+    float: right;
+    padding: 5px;
+    position: relative;
+    left: 0%;
+  }
+  select {
+border: 0px;
+outline: 0px;
+background-color: #F4F4F4;
+font-size: 12px;
+line-height: 15.06px;
+font-family: BPG Glaho WEB Caps;
+}
+.dropdown{
+    position: relative;
+left: 0%;
+
+
+}
+.phone{
+position: relative;
+left: 0%;
+}
+.phone i{
+position: relative;
+top: 5px;
+
+}
+.search{
+    position: relative;
+left: 0%;
+font-family: BPG Glaho WEB Caps;
+}
+.user{
+    position: relative;
+left: 0%;
+font-family: BPG Glaho WEB Caps;
+}
+
+}
+  
+ul.nav-bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #00B15D;
+  min-height: 73px;
+  max-height: 500px;
+}
+ul.nav-bar li {
+  float: left;
+  position: relative;
+  left: 32%;
+
+  
+}
+ul.nav-bar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 15px;
+}
+
+.logo{
+position: absolute;
+height: 82px;
+left: 19.5%;
+cursor: pointer;
+background-color: #F4F4F4;
+width: 178px;
+margin-top: -2px;
+
+}
+.logo img{
+position: relative;
+left: -45px;
+}
+
+
+.shoping i{
+position: relative;
+top: 30px;
+left: -30px;
+}
+@media screen and (max-width: 1300px) {
+  ul.nav-bar li,
+ul.nav-bar li {
+    float: none;
+    position: relative;
+    left: 0%;
+  }
+  .logo{
+display: none;
+
+}
+}
+  </style>
+    <title>Document</title>
+</head>
+<body>
+    <ul class="nav-links">
+        <div class="dropdown customerStyle" >
+            <li><select name="lang" id="lang" >
+                <option value="ქართული">ქართული</option>
+                <option value="English">Englihs</option>
+                <option value="Russian">Russian</option>
+                
+              </select></li>
+            <li><a href="" class="phone"><i class="fa fa-phone" aria-hidden="true" style="color: 
+                #00B15D; font-size: 25px;"></i>+7 943 534-56-65</a></li>
+              <li><a href="" class="search"><i class="fa fa-search" aria-hidden="true" style="color: 
+                #00B15D; font-size: 20px;"></i>ჩემი ანგარიში</a></li>
+              <li><a href="" class="user"><i class="fa fa-user" aria-hidden="true" style="color: 
+                #00B15D; font-size: 20px;"></i> ჩემი ანგარიში</a></li>
+          </div>       
+    </ul>
+    <ul class="nav-bar">
+        <div class="logo">
+            <img src="./Futurium черный основной 4.png"  alt="logo">
+        </div>
+        
+        
+        <div>
+        <li><a href=""><i class="fa fa-calendar"></i>სალონში ჩაწერა</a></li>
+        <li><a href=""><i class="fa fa-tachometer" aria-hidden="true"></i>აზომვის შეკვეთა</a></li>
+        <li><a href=""><i class="fa fa-map-marker" aria-hidden="true"></i>ჩვენი სალონები</a></li>
+        <li><a href=""><i class="fa fa-download" aria-hidden="true"></i>ბროშურა</a></li>
+        <li><a href=""><i class="fa fa-phone" aria-hidden="true"></i>ზარის შეკვეთა</a></li>
+
+        
+        <li><a href=""   ><i class="fa fa-shopping-basket" aria-hidden="true" ></i>კალათაში <br> 654986 ლ</a></li>
+        
+        </div>   
+       
+    </ul>
+</body>
+</html>
